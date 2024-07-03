@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<title>Uncle G PC Solutions</title>
+	<link rel="stylesheet" href="styles.css">
+	
+	<style type="text/css">
+	
+	body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	}
+	
+	header {
+	background-color: #ffffff;
+	color: #ffffff;
+	padding: 5px;
+	text-align: begin;
+	}
+	
+	nav {
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px;
+	text-align: begin
+	}
+	
+	main {
+	display: flex;
+	flex-direction: column;
+	align-items: begin;
+	padding: 5px;
+	}
+	
+	section {
+	background-color: #ffffff;
+	padding: 5px;
+	margin-bottom: 3px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	
+	h1, h2 {
+	color: #007bff;
+	}
+	
+	a {
+	color: #007bff;
+	text-decoration: none;
+	}
+	
+	a:hover {
+	color: #0069d9;
+	}
+	footer {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	}
+	
+	h4{position:fixed;
+	width:90px;
+	height:90px;
+	background:yellow;}
+	
+	
+	#yt{color:red; 
+	background:pink;
+	border :0.9px solid blue;}
+	
+	
+	
+	</style>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<style type="text/css">
+#p1{font-style:italic;}	
+	#header{background:#263246;}
+	h3{background:#D3D3d3;
+	transition:background 0.5s ease-in-out;}
+	
+	
+img{height:50px;
+width:200px;}	
+   #games{background:#67cc73;
+   border:1px dotted Purple;}
+	
+	h1{text-shadow: 2px 2px orange;
+	border-bottom:2px dotted #87Ceeb;
+	border-top:2px solid blue }
+	
+	#window{background:#007bff;
+	border-radius:3px;
+	color:#Fff599;
+	border :1px solid orange;}
+
+
+#tiktok{
+
+border:1px dotted purple;
+}
+
+
+
+	#movies{color:brown;
+	border:1.2px solid red;
+	border-radius:3px;
+	background:#7124224;}
+	
+
+	
+	
+
+	
+	</style>
+	
+	
+	
+	
+	
+	
+	<style type="text/css">
+	
+#ytp{background:yellow;
+position:absolute;
+width:50px;
+height:50px;}	
+	
+	#tik{background:yellow;
+	position:absolute;
+	width:50px;
+	height:50px;}	
+	
+	
+	#game{background:yellow;
+	position:absolute;
+	width:50px;
+	height:50px;}	
+	
+	#windows{background:yellow;
+	position:absolute;
+	width:50px;
+	height:50px;}
+		
+		#meta{width:60px;
+		height:70px;
+		margin-top:30px;
+		}
+		p{font-size:3px;}
+		#metan{margin-left:24px;
+		}
+	</style>
+	
+</head>
+<body>
+	
+		<div id ="header"> </div>
+		 
+	
+
+	<a href="javascript:history.back()"><b>Back
+	</b>
+	</a>
+	
+	
+	<main>
+		<section id="menu">
+			
+			
+			
+			
+		
+			
+			
+			
+		<h3 id="games" align="center">Android Games & Apps</h3>
+		<div id="game">
+		</div>
+		<br>
+		
+		<script>
+		
+		var game = document.getElementById("game");
+		gamep = document.createElement("img");
+		gamep.src ="gamep.png";
+		game.onclick = ()=>{window.location.href="andro.html"};
+		game.append(gamep);
+		
+		var poss = 0;
+		var ttt = setInterval(mov, 5);
+		
+		function mov(){
+		if(poss >= 220){
+		clearInterval(ttt);}
+		
+		else{poss += 1;
+		
+		game.style.right = poss + "px";
+		
+		
+		}
+		
+		
+		
+		
+		}
+		
+		
+		
+		</script>
+	
+		
+		<br>
+		<div>
+<ul><img src="meta.png" id="meta" >
+<br>
+<p id="metan">MT5</p></ul>
+<a href="${apkUrl}" download="meta.apk">download APK</a>
+	</div>	
+		<script>
+		
+		const apkurl = URL.createObjectURL(apkBlob);
+		
+		
+		
+		</script>
+		
+		
+		
+		
+		
+		<br>
+		
+		
+		
+		
+		<br>
+	</main>
+</section>
+		
+<nav>
+		<ul>
+			<li><a href="uncleg.html">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="contacts.html">Contact</a></li>
+		</ul>
+	</nav>
+	<footer>
+		<p>&copy; 2024 Two Uncles</p>
+	</footer>
+</body>
+</html>
